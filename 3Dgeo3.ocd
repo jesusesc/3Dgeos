@@ -22,7 +22,7 @@ Takes the point as first argument and the vector with the coordinates as second 
 <Example>
 The description of the point A with affine coordinates (4.8,0.6,10.2) is given by:
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
   <OMA>
     <OMS cd="3Dgeo1" name="point"/>
     <OMV name="A"/>
@@ -53,7 +53,7 @@ distances between two affine points, one on O and one on O'.
 
 <Example> The distance between two points A and B is given by
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
   <OMA>
     <OMS cd="3Dgeo3" name="distance"/>
     <OMV name="A"/>
@@ -74,7 +74,7 @@ The symbol represents a configuration in Euclidean 3-dimensional geometry consis
 <Example> The configuration of a point A and a line l incident to A 
 is defined by:
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
   <OMA>
     <OMS cd="3Dgeo3" name="configuration"/>
     <OMA>
@@ -98,7 +98,7 @@ is defined by:
 <Example>
 The following is the description of the configuration consisting on two different points A and B and the line l determined by them:
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
   <OMA>
     <OMS cd="3Dgeo3" name="configuration"/>
     <OMA>
@@ -151,7 +151,7 @@ expresses the assertion that T holds in C.
 <Example> The assertion that two distinct intersecting lines meet in only one point
 can be expressed as follows using the assertion symbol.
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
   <OMA>
     <OMS cd="3Dgeo3" name="assertion"/>
     <OMA>
@@ -225,7 +225,7 @@ The symbol takes the variable as the first argument, the tracer point T as secon
 <Example> 
 The following example describes a configuration with the locus set L of all points C equidistant to two given points A and B.
 
-<OMOBJ xmins="http://www.openmath.org/OpenMathCD" version="2.0"> 
+<OMOBJ xmins="http://www.openmath.org/OpenMath" version="2.0"> 
   <OMA>
     <OMS cd="3Dgeo3" name="configuration"/>
     <OMA>
@@ -275,7 +275,7 @@ The symbol takes a configuration as the first argument and the properties for wh
 <Example> 
 The following example encodes the task of finding necessary conditions for a point C to be equidistant to the points A and B.
 
-<OMOBJ xmins="http://www.openmath.org/OpenMathCD" version="2.0"> 
+<OMOBJ xmins="http://www.openmath.org/OpenMath" version="2.0"> 
   <OMA>
     <OMS cd="3Dgeo3" name="discovery"/>
     <OMA>
