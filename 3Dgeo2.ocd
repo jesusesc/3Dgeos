@@ -22,7 +22,7 @@ It is true if and only if the first argument is incident to the second.
 <Example> 
 That a point A is incident to a line l is given by: 
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo2" name="incident"/>
     <OMV name="A"/>
@@ -42,7 +42,7 @@ That a point A is incident to a line l is given by:
 <Example> 
 This example states that C is the midpoint of A and B.
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo2" name="is_midpoint"/>
     <OMV name="C"/>    
@@ -65,7 +65,7 @@ Takes the circle as first argument and the point as second argument.
 <Example> 
 The circle c with center at A and passing through the point B is given by:
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo1" name="circle"/>
     <OMV name="c"/>
@@ -96,7 +96,7 @@ Takes the sphere as first argument and the point as second argument.
 <Example> 
 The sphere s with center at A and passing through the point B is given by:
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo1" name="sphere"/>
     <OMV name="s"/>
@@ -127,7 +127,7 @@ Its value is true whenever the first argument is perpendicular to the second.
 <Example> 
 This example states that the lines l and m are perpendicular.
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo2" name="perpendicular"/>
     <OMV name="l"/>
@@ -149,7 +149,7 @@ Its value is true whenever the first argument is parallel to the second.
 <Example> 
 This example states that the lines l and m are parallel.
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo2" name="line_parallel"/>
     <OMV name="l"/>
@@ -171,7 +171,7 @@ Its value is true whenever the first argument is parallel to the second.
 <Example> 
 This example states that the planes m and n are parallel.
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo2" name="plane_parallel"/>
     <OMV name="m"/>
@@ -193,7 +193,7 @@ Its value is true whenever the first argument is normal to the second.
 <Example> 
 This example states that the line l is normal to the plane p.
 
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo2" name="normal"/>
     <OMV name="l"/>
@@ -214,7 +214,7 @@ When applied to a sequence of points in 3-dimensional Euclidean space, its evalu
 
 <Example> 
 This example states that the points A, B, C, and D are collinear.
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo2" name="are_on_line"/>
     <OMV name="A"/>
@@ -237,7 +237,7 @@ When applied to a sequence of points in 3-dimensional Euclidean space, its evalu
 
 <Example> 
 This example states that the points A, B, C, and D are coplanar.
-<OMOBJ xmlns="http://www.openmath.org/OpenMath" version="2.0">
+<OMOBJ xmlns="http://www.openmath.org/OpenMathCD" version="2.0">
   <OMA>
     <OMS cd="3Dgeo2" name="are_on_plane"/>
     <OMV name="A"/>
